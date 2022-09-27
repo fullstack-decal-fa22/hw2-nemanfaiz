@@ -25,6 +25,8 @@ h2 {
   width: 500px;
   border-style: solid;
   margin-bottom: 5rem;
+
+  
 }
 
 .twovert {
@@ -55,9 +57,39 @@ h2 {
   top: 50px;
 }
 
+.white-twovert, .red-twovert {
+  height: 50%;
+  width: 100%;
+}
+
+.white-twovert {
+  background-color: white;
+}
+
+.red-twovert {
+  background-color: red;
+}
+
 /* Colors */
 
 /* QUESTION 1 */
+
+.red-threevert, .light-blue-threevert {
+  height: 50%;
+  height: 33.3%;
+
+}
+
+.red-threevert {
+  background-color: red;
+}
+#white {
+  background-color: white;
+}
+
+.light-blue-threevert {
+  background-color:  rgb(0, 146, 221);
+}
 
 .orange {
   background-color: orange;
@@ -93,16 +125,32 @@ h2 {
 
 /* BEGIN QUESTION 2 */
 
+.thailand-red, .thailand-white {
+
+  height: 16.7%;
+  width: 100%;
+}
+
+.thailand-blue {
+  height: 33.3%;
+  width: 100%;
+}
+
 .thailand-red {
   /* TODO */
+  background-color: darkred;
 }
 
 .thailand-white {
   /* TODO */
+  background-color: white;
+
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: darkblue;
+
 }
 
 /* END QUESTION 2 */
@@ -124,12 +172,30 @@ h2 {
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
+
+.mexico-green, .mexico-img, .mexico-red {
+  height: 17.5; 
+  width: 33.3%;
+}
 .mexico-green {
   background-color: #006341;
 }
 
 .mexico-img {
   /* TODO */
+  width: 160px;
+  height: 160px;
+
+  padding: 5px;
+  margin-top: 70px;
+
+  /* border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  position:relative;
+  left: 0px;
+  top: 50px; */
+
 }
 
 .mexico-red {
@@ -148,13 +214,27 @@ h2 {
 
 /* For margin practice */
 .flag1 {
-  background-color: red;
+  height: 280px;
+  width: 500px;
+  border-style: solid;
+  margin: 5px 10px 5px 10px;
+
+  background-color: darkcyan;
   /* TODO */
+  
 }
 
 .flag2 {
-  background-color: blue;
+  height: 280px;
+  width: 500px;
+  border-style: solid;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+
+  background-color: darkgoldenrod;
   /* TODO */
+  margin-bottom: 40px;
+  
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +242,22 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+}
+
+
+.label:hover {
+  color: darkgreen;
+  font-size: 150%;
+  font-weight: bolder;
 }
